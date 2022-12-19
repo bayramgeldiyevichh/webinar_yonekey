@@ -1,0 +1,19 @@
+<form action="/" method="post">
+    {% csrf_token %}
+    <label for="">Username:</label>
+    {{form.username}}
+    <hr>
+    <label for="">Email:</label>
+    {{form.email}}
+    <hr>
+    <label for="">Phone:</label>
+    {{form.phone}}
+    <hr>
+    <label for="">Password:</label>
+    {{form.password1}}
+    <hr>
+    <label for="">Confirm Password:</label>
+    {{form.password2}}
+    <hr>
+    <button type="submit" href="/">Save</button>
+</form>

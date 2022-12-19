@@ -1,0 +1,213 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Car repair</title>
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/media.css' %}">
+</head>
+<body>
+
+
+<header class="header">
+    <div class="container">
+        <div class="header__wrapper">
+
+            <div class="header__block">
+                <a href="/" class="header__logo">
+                    <img src="https://bilim.yonekey.com/img/yone.png" alt="">
+                </a>
+            </div>
+            <!--/header__block-->
+
+            
+
+        </div>
+        <!--/header__wrapper-->
+
+    </div>
+    <!--/container-->
+</header>
+
+<section class="intro" style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxXq5nhChA3iHGF1oroVzJt61gvMfEBHuxI3gHGRxnpImOgPpfltdXZ46al7WIkZbud-E&usqp=CAU');">
+    <div class="container">
+        <div class="intro__content">
+            <div class="intro__block">
+                <h1 class="intro__title">
+                    ONLINE 100.000$ GAZANMAGYŇ 6 SYRYNY MUGT ÖWREN | KESHA REJEPOW BILEN YHLAS ANNAYEW
+                </h1>
+
+                <a href="#str" class="btn">
+                    Başla
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/intro-->
+<section class="info">
+    <div class="container">
+        <div class="wrapper">
+            <div class="block">
+                <div class="info__item">
+                    <div class="info__img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUpPnKDyUS8_KWVPI-PqC8BbRkY-7bukyLVrcrjbaySvaCdPdTxWh4QjUnCPpdfazc2IY&usqp=CAU" alt="">
+                    </div>
+                    <h4 class="info__title">
+                        Keşa bilen mugt webinara goşulyň
+                    </h4>
+                    <p class="info__text">
+                        Ýönekey.hususy kärhana
+                    </p>
+                </div>
+            </div>
+            <!--/info__block-->
+            <div class="block">
+                <div class="info__item">
+                    <div class="info__img">
+                        <img src="data:image/jpeg;base64,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" alt="">
+                    </div>
+                    <h4 class="info__title">
+                        Onlaýn 100.000$ dollar gazanmagyň 6 syryny öwrenýäň
+                    </h4>
+                    <p class="info__text">
+                        Ýönekey.hususy kärhana
+                    </p>
+                </div>
+            </div>
+            <!--/info__block-->
+            <div class="block">
+                <div class="info__item">
+                    <div class="info__img">
+                        <img src="https://cdn-icons-png.flaticon.com/512/18/18229.png" alt="">
+                    </div>
+                    <h4 class="info__title">
+                        Ilkinji Biznesiňi biz bilen başla
+                    </h4>
+                    <p class="info__text">
+                        Ýönekey.hususy kärhana
+                    </p>
+                </div>
+            </div>
+            <!--/info__block-->
+        </div>
+        <!--/info__wrapper-->
+    </div>
+    <!--/container-->
+</section>
+<!--/info-->
+
+<section class="section process">
+    <div class="container">
+        <h2 class="process__title" id="str">MUGT WEBINARA GOŞUL ŞUWAGT</h2>
+        <h3 class="process__subtitle">
+            7-8 ÝYLDA ÖWRENEN ZATLARYMY INDIKI 60 MINUTDA DOLY ÖWREN MUGT | BU KESHA REJEPOW</h3>
+            <span style="font-size:20px;"><span style="color:red;">Men Kesha Rejepow</span> we Men saňa nädip onlaýn 100.000$ gazanmagyň 6 syryny görkezjek. Görkezýanimiň sebabi men aýtdym haçanda men 100.000$ lyk biznesi düzen ýagdaýymda men şol derejä nädip ýetenim hakynda maglumaty paýlaşjak diýip maksat goýdum.
+
+                We Şügün şol maksadyma ýetdim inede seniň bilen paýlaşýan, senem öz aýratyn biznesiňi düzersiň ýaly öz durmuşuňy indiki derejä galdyrarsyň ýaly... Hemme zat bilimden başlanýa "Pul gazanmak üçin pul gerekdäl" Pul gazanmagyň üçin BILIM Gerek..
+                
+                Belki sen razysyň ýada razy dälsiň meň aýdanlarym bilen ýöne men birzady bilýän men şu sen bilen paýlaşjak 6 syrym seniň durmuşuňy indiki derejä galjagyna ynanýan.
+                
+                Men saňa şu 6 syry nämedigni ädimme ädim görkezesim gelýa we sen hem şul syrlary täze açjak biznesiňa ýada öz biznesiňa ulanarsyň ýaly. Bu zatlar ýöne bir syr däl Bular 6 Sistema...
+                
+                Başlaly wagt gidirme sen şu zatlary öwrenmek üçin MUGT pul gerekdäl, dawaý aşakdaky linka basyp maglumatlaryňy belle we webinara goşul garaşýan...</span>
+        
+    </div>
+    <!--/container-->
+</section>
+
+
+
+<section class="contacts">
+    <div class="container">
+        <h2 class="block__title text-white">
+            Zaýawka et
+        </h2>
+        <form class="contacts__form" action="">
+            <div class="form__row">
+                <div class="form__group">
+                    <input type="text" class="input"  placeholder=" ">
+                    <label for="" class="label">
+                        Adyňyz
+                    </label>
+                </div>
+                <div class="form__group">
+                    <input type="text" class="input" placeholder=" ">
+                    <label for="" class="label">
+                        Familiýaňyz
+                    </label>
+                </div>
+            </div>
+            <!--/form__row-->
+            <div class="form__row">
+                <div class="form__group">
+                    <input type="email" class="input" placeholder=" ">
+                    <label for="" class="label">
+                        Email
+                    </label>
+                </div>
+                <div class="form__group">
+                    <input type="tel" class="input" placeholder=" ">
+                    <label for="" class="label">
+                        Tel
+                    </label>
+                </div>
+            </div>
+            <!--/form__row-->
+            <div class="form__row">
+                <div class="form__group">
+                    <textarea class="textarea" placeholder=" " name=""></textarea>
+                    <label for="" class="label">
+                        SMS
+                    </label>
+                </div>
+            </div>
+            <!--/form__row-->
+            <button class="btn text-upper" type="submit">
+                Ugrat
+            </button>
+        </form>
+        <!--/contact__form-->
+    </div>
+    <!--/container-->
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__wrapper">
+            <p class="copyright">
+                © 2022 Ý.H.K Keşa Rejepow
+            </p>
+            <div class="footer__soc">
+                <a href="#" class="footer__soc-link">
+                    <img src="{% static 'img/linkedin.svg' %}" alt="">
+                </a>
+                <a href="#" class="footer__soc-link">
+                    <img src="{% static 'img/facebook.svg' %}" alt="">
+                </a>
+                <a href="https://instagram.com" target="_blank" class="footer__soc-link">
+                    <img src="{% static 'img/instagram.svg' %}" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+
+    loadTxt.onclick = function() {
+        let stx = document.getElementById('moreTxt').innerHTML;
+        for (i = 0; i < stx.length; i++) {
+            if(i == 2) {break};
+        }
+    }
+
+</script>
+
+</body>
+</html>

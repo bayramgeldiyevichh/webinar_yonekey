@@ -1,12 +1,378 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Creative Studio landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Keşa Rejepow</title>
+
+    <!-- font icons -->
+    <link rel="stylesheet" href="{% static 'assets/vendors/themify-icons/css/themify-icons.css' %}">
+
+    <!-- Bootstrap + Creative Studio main styles -->
+	<link rel="stylesheet" href="{% static 'assets/css/creative-studio.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+
 </head>
-<body>
-    <h1>Salam Eziz</h1>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+
+    
+
+    <!-- Page Navigation -->
+    <nav class="navbar custom-navbar navbar-expand-lg navbar-dark" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="{% static 'assets/imgs/logo_yonekey.png' %}" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Baş Shypa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Biz hakynda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Hyzmatlarymyz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Habarlaşmak üçin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary btn-sm ml-lg-3" href="">Online töleg</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Of Page Navigation -->
+
+    <!-- Page Header -->
+    <header class="header">
+        <div class="overlay">
+            <h6 class="subtitle">Uly pikirler bilen kiçi topar</h6>
+            <h1 class="title">Ýönekeý h.k</h1>
+            <div class="buttons text-center">
+                <a href="tel:+99361843349" class="btn btn-primary rounded w-lg btn-lg my-1">Jaňlaşmak üçin</a>
+                <a href="#contact" class="btn btn-outline-light rounded w-lg btn-lg my-1">Habarlaşmak üçin</a>
+            </div>              
+        </div>      
+    </header>
+    <!-- End Of Page Header -->
+
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5 col-lg-4">
+                    <img src="{% static 'assets/imgs/about.jpg' %}" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page" class="w-100 img-thumbnail mb-3">
+                </div>
+                <div class="col-md-7 col-lg-8">
+                    <h6 class="section-subtitle mb-0">Biz Döretýäris</h6>
+                    <h6 class="section-title mb-3">Ajaýyp iş</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente cupiditate quas, amet harum perferendis minus, cum dolorum obcaecati iste aspernatur voluptatum aut.</p>
+                    <p>Cum laudantium unde nemo doloribus eligendi quodarum ea vitae dicta. Accusantium vero, ea? Alias, atque libero. Id, ut harum. </p>
+                    <p>consectetur adipisicing elit. Omnis quidem, quos iure a dolorum illum culpa quia nemo soluta, ratione harum beatae minus doloribus consectetur! Similique tempora sunt doloribus molestias.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of About Section -->
+
+    <!-- About Section with bg -->
+    <section class="has-bg-img py-md">
+        <div class="container text-center">
+            <h6 class="section-subtitle">Görýäris</h6>
+            <h6 class="section-title mb-6">Başgalar gabat gelmeýän zat.</h6>
+            <div class="widget mb-4">
+                <div class="widget-item">
+                    <i class="ti-notepad"></i>
+                    <h4>Meýilnamalaşdyrmak</h4>
+                </div>
+                <div class="widget-item">
+                    <i class="ti-layout"></i>
+                    <h4>Meýilnamany</h4>
+                    <h4>Ugrukdyrmak</h4>
+                </div>
+                <div class="widget-item">
+                    <i class="ti-filter"></i>
+                    <h4>Meýilnamany</h4>
+                    <h4>Döretmek</h4>
+                </div>
+                <div class="widget-item">
+                    <i class="ti-thumb-up"></i>
+                    <h4>Üpjün etmek</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Of About Sectoin -->
+
+    <!-- Service Section -->
+    <section id="service">
+        <div class="container">
+            <h6 class="section-subtitle text-center">Ýönekeý h.k</h6>
+            <h5 class="section-title text-center mb-6">Biziň Hyzmatlarymyz</h5> 
+            <div class="row">
+                <div class="col-sm-4 col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="mb-4"><i class="ti-filter text-primary"></i></h2>
+                            <h6 class="card-title">Korporasiýa</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis amet saepe et!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="mb-4"><i class="ti-paint-roller text-primary"></i></h2>
+                            <h6 class="card-title">Debitis amet</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis amet saepe et!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="mb-4"><i class="ti-ruler-pencil text-primary"></i></h2>
+                            <h6 class="card-title">Libero temporibus</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis amet saepe et!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="mb-4"><i class="ti-layers text-primary"></i></h2>
+                            <h6 class="card-title">Perspiciatis explicabo</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis amet saepe et!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="mb-4"><i class="ti-bolt text-primary"></i></h2>
+                            <h6 class="card-title">Poluptatum</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis amet saepe et!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="mb-4"><i class="ti-palette text-primary"></i></h2>
+                            <h6 class="card-title">Nihil dicta</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis amet saepe et!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="mb-4"><i class="ti-stats-up text-primary"></i></h2>
+                            <h6 class="card-title">Repellendus maxime</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis amet saepe et!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="mb-4"><i class="ti-location-arrow text-primary"></i></h2>
+                            <h6 class="card-title">Sint vitae</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis amet saepe et!</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>  
+        </div>
+    </section>
+    <!-- End of Service Section -->
+
+    <!-- Fatcs Section -->
+    <section class="has-bg-img bg-img-2">
+        <div class="container text-center">
+            <h6 class="section-subtitle">Biziň ajaýyp işlermiz</h6>
+            <h6 class="section-title mb-6">Käbir gyzykly maglumatlar</h6>
+                <div class="widget-2">
+                    <div class="widget-item">
+                        <i class="ti-cup"></i>
+                        <h6 class="title">10+</h6>
+                        <div class="subtitle">Baýraklar gowşuryldy</div>
+                    </div>
+                    <div class="widget-item">
+                        <i class="ti-face-smile"></i>
+                        <h6 class="title">100+</h6>
+                        <div class="subtitle">Iň gowy müderilermiz</div>
+                    </div>
+                    <div class="widget-item">
+                        <i class="ti-blackboard"></i>
+                        <h6 class="title">14</h6>
+                        <div class="subtitle">Taslama tamamlandy</div>
+                    </div>
+                    <div class="widget-item">
+                        <i class="ti-comments-smiley"></i>
+                        <h6 class="title">15K+</h6>
+                        <div class="subtitle">Komentariýalarymyz</div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <!-- Video Section -->
+    <section class="has-bg-img py-lg">
+        <div class="container text-center">
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-primary play-control" data-toggle="modal" data-target="#exampleModalCenter">
+              <i class="ti-control-play" ></i>
+            </button>
+            <h6 class="section-title mt-4">Size 100.00$ gazanmagyň 6 syry bolan wideomyza serediň</h6>
+
+        </div>
+    </section>
+    <!-- End of Video Section -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <iframe width="100%" height="475" src="https://www.youtube.com/embed/TP4THzsAa3M" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- end of modal -->
+
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="contact-card">
+                <div class="infos">
+                    <h6 class="section-subtitle">Şu ýere gel</h6>
+                    <h6 class="section-title mb-4">Biz bilen habarlaşyň</h6>
+
+                    <div class="item">
+                        <i class="ti-location-pin"></i>
+                        <div class="">
+                            <h5>Ýerleşýän ýerimiz</h5>
+                            <p>Mary welaýat Mary şäher</p>
+                        </div>                          
+                    </div>
+                    <div class="item">
+                        <i class="ti-mobile"></i>
+                        <div>
+                            <h5>Telefon belgimiz</h5>
+                            <p>+993 61 84 33 49</p>
+                        </div>                          
+                    </div>
+                    <div class="item">
+                        <i class="ti-email"></i>
+                        <div class="mb-0">
+                            <h5>Email Poçtamyz</h5>
+                            <p>yonekey@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="ti-world"></i>
+                        <div class="mb-0">
+                            <h5>Website</h5>
+                            <p>yonekey.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="form">
+                    <h6 class="section-subtitle">24/7 Elýeterli</h6>
+                    <h6 class="section-title mb-4">Hawarlaşyp dur</h6>
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email poçtaňyz" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Parolyňyz" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="contact-message" id="" cols="30" rows="7" class="form-control form-control-lg" placeholder="Sms-ňiz"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block btn-lg mt-3">Ugratmak</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+
+    <section class="has-bg-img py-0">
+        <div class="container">
+            <div class="footer">
+                <div class="footer-lists">
+                    <ul class="list">
+                        <li class="list-head">
+                            <h6 class="font-weight-bold">Biz hakynda</h6>
+                        </li>
+                        <li class="list-body">
+                            <a href="#" class="logo">
+                                <img src="{% static 'assets/imgs/logo_yonekey.png' %}" alt="">
+                                <h6>Ýönekeý h.k</h6>
+                            </a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae nobis fugit maxime deleniti minus optio accusamus, quam maiores explicabo sunt.</p> 
+                            <p class="mt-3">
+                                Awtorlyk hukugy <script>document.write(new Date().getFullYear())</script> &copy; <a class="d-inline text-primary" href="https://yonekey.com">Yonekey h.k</a>
+                            </p>                   
+                        </li>
+                    </ul>
+                    <ul class="list">
+                        <li class="list-head">
+                            <h6 class="font-weight-bold">Peýdaly baglanyşyklar</h6>
+                        </li>
+                        <li class="list-body">
+                            <div class="row">
+                                <div class="col">
+                                    <a href="#about">Biz hakynda</a>
+                                    <a href="#service">Hyzmatlarymyz</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="list">
+                        <li class="list-head">
+                            <h6 class="font-weight-bold">ARAGATNAŞYK</h6>
+                        </li>
+                        <li class="list-body">
+                            <p>Biziň bilen habarlaşyň we 24 sagadyň dowamynda size gaýdyp geleris.</p>
+                            <p><i class="ti-location-pin"></i> Mary welaýat, Mary şäher </p>
+                            <p><i class="ti-email"></i>  yonekey@gmail.com</p>
+                            <div class="social-links">
+                                <a href="https://www.google.com/search?q=yonekey.com.tm&sxsrf=ALiCzsZjpjvyHCpPirA7W0ZA-S7EaOHHtg%3A1671434379923&source=hp&ei=ixCgY96dNqySrgT_8KiwDA&iflsig=AJiK0e8AAAAAY6Aem9EIm6pax1dqJo7_eJgB9cOEm8vg&oq=yonekey&gs_lcp=Cgdnd3Mtd2l6EAMYADIECCMQJzIECCMQJzIECCMQJzIECAAQQzIECAAQQzIKCAAQgAQQChDLATIGCAAQChBDMgUIABCABDIFCAAQgAQyBQgAEIAEOgcIIxDqAhAnOg0ILhDHARCvARDqAhAnOgoILhDHARDRAxAnOggILhCxAxCDAToICAAQsQMQgwE6DQgAEIAEELEDEIMBEAo6BQguEIAEOgcIABCABBAKUKsIWLMUYPkjaABwAHgCgAHPBogB5RqSAQ0wLjEuMS4yLjIuMS4xmAEAoAEBsAEK&sclient=gws-wiz" class="link"><i class="ti-google"></i></a>
+                                <a href="https://instagram.com/" class="link"><i class="ti-instagram"></i></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <!-- core  -->
+    <script src="{% static 'assets/vendors/jquery/jquery-3.4.1.js' %}"></script>
+    <script src="{% static 'assets/vendors/bootstrap/bootstrap.bundle.js' %}"></script>
+
+    <!-- bootstrap affix -->
+    <script src="{% static 'assets/vendors/bootstrap/bootstrap.affix.js' %}"></script>
+
+    <!-- Creative Studio js -->
+    <script src="{$ static 'assets/js/creative-studio.js' %}"></script>
+
 </body>
 </html>
